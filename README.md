@@ -1,13 +1,16 @@
- Inventory Management CRUD System (SQL Only)
+ Inventory Management CRUD System (SQL Only):
+ 
 A robust PostgreSQL-based CRUD (Create, Read, Update, Delete) project designed to manage a retail product inventory. This project demonstrates database schema design, data integrity constraints, and automated indexing.
 
  Features
+ 
 Data Integrity: Uses CHECK constraints to ensure prices and stock quantities are never negative.
 Automated Tracking: Includes added_on and last_updated timestamps for audit trails.
 Unique Identification: Implements SKU_CODE as a unique secondary key alongside the primary ID.
 Seed Data: Comes pre-loaded with sample products across categories like Electronics, Fitness, and Stationery.
 
  How to Setup
+ 
 1.Clone the repository
 
 2.Import the database:
